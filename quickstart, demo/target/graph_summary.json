@@ -1,0 +1,1 @@
+{"_invocation_id": "7264facb-9264-4c66-a2d0-b90ac272c9a8", "linked": {"0": {"name": "model.my_new_project.customers", "type": "model"}, "1": {"name": "model.my_new_project.stg_customers", "type": "model"}, "2": {"name": "model.my_new_project.stg_orders", "type": "model"}}}
