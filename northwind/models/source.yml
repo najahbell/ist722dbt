@@ -26,12 +26,12 @@ sources:
         columns:
           - name: ProductId
             tests:
-              - unique        
+              - unique
       - name: Suppliers
         columns:
           - name: SupplierId
             tests:
-              - unique        
+              - unique
       - name: Categories
         columns:
           - name: CategoryId
@@ -46,15 +46,15 @@ sources:
         columns:
           - name: ShipperID
             tests:
-              - unique      
+              - unique
       - name: Orders
         columns:
           - name: OrderId
             tests:
-              - unique                                                  
+              - unique
       - name: Order_Details
         tests:
-        - dbt_utils.unique_combination_of_columns:
-            combination_of_columns:
-              - OrderId
-              - ProductId
+          - dbt_utils.unique_combination_of_columns:
+              combination_of_columns:
+                - OrderId
+                - ProductId
